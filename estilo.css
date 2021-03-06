@@ -1,0 +1,92 @@
+.fondo
+{
+  position:fixed;
+  display: block;
+  height: 101%;
+  width: 100%;
+  right: 0%;
+  top: -1%;
+}
+
+.divtitulo
+{
+	position: absolute;
+	background-color: black;
+	opacity: 50%;
+	height: 30%;
+    width: 51%;
+    top: 8%;
+    left: 24%;
+    border-radius: 8px;
+
+    -webkit-box-shadow: 8px 8px 11px #999;       /* -SOMBRA- */
+    -moz-box-shadow: 2px 2px 5px #999;
+	z-index: 100%;
+}
+
+.div
+{
+	position: absolute;
+	background-color: black;
+	text-align: center;
+	border-radius: .25rem;
+	color: white;
+	opacity: 65%;
+	padding: 8%;
+	font-size: 50px;
+	width: 15%;
+	height: 10%;
+	left: 34.5%;
+	top: 50%;
+
+	-webkit-box-shadow: 8px 8px 11px #999;       /* -SOMBRA- */
+    -moz-box-shadow: 2px 2px 5px #999;
+}
+
+.contenido
+{
+	position: absolute;
+	text-align: center;
+	border-radius: .25rem;
+	color: white;
+	padding: 8%;
+	font-size: 50px;
+	width: 15%;
+	height: 10%;
+	left: 34.5%;
+	top: 50%;
+	z-index: 10;
+}
+
+.linea1
+{
+	position: absolute;
+	width: 10%;
+	top: 8.5%;
+	left: 64.7%;
+	z-index: 100;
+}
+
+.linea2
+{
+	position: absolute;
+	width: 10%;
+	top: 18.7%;
+	left: 24.3%;
+	z-index: 100;
+}
+.regresar
+{
+	position: absolute;
+	width: 19%;
+	top: -6.8%;
+	left: -3.15%;
+}
+
+.titulo
+{
+	position: absolute;
+	width: 40%;
+	top: 16%;
+	left: 30%;
+}

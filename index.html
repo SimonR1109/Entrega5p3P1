@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<title>Pagina 3</title>
+</head>
+<body onmousemove="posicion(event)">
+	<img src="fondo.jpg" class="fondo">
+	<script type="text/javascript">
+		function posicion(event)
+		{
+			var x = event.clientX;
+
+			var y = event.clientY;
+
+			var div = document.getElementById('contenido');
+			contenido.innerHTML = 'X: '+x+', Y: '+y;
+
+			if(x>=445 && x<=837 && y>=342 && y<=612)
+			{
+				dentro = document.getElementById('contenido').innerHTML = "Dentro"
+			}
+			else
+			{
+				ndentro = document.getElementById('contenido').innerHTML = "Fuera"
+			}
+			//izquierda
+			//445,342
+			//445,612
+
+			//derecha
+			//837,343
+			//837,612
+		}
+	</script>
+	<div class="divtitulo"></div>
+	<img src="titulo.png" class="titulo">
+	<img src="linea1.png" class="linea1">
+    <img src="linea2.png" class="linea2">
+    <a href="https://simonr1109.github.io/Periodo1/">
+      <img src="regresar.png" class="regresar">
+    </a>
+
+	<div id="div" class="div"></div>
+	<div id="contenido" class="contenido"></div>
+</body>
+</html>
